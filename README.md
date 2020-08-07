@@ -1,7 +1,7 @@
-# steam-bandwidth-limit
+# Steam Bandwidth Limit
 Set a custom Steam bandwidth limit with a shortcut.
 
-The Steam bandwidth limit can be set to any value by adjusting the *DownloadThrottleKbps* in *C:\Program Files (x86)\Steam\config\config.vdf*. This script does that for you, so you don't need to redo it manually everytime the setting gets overwritten. Recommended use: create a shortcut to the script with the bandwidth in Kbit/s as first the argument.
+The Steam bandwidth limit can be set to any value by adjusting the *DownloadThrottleKbps* in *C:\Program Files (x86)\Steam\config\config.vdf*. This script does that for you, so you don't need to redo it manually everytime the setting gets overwritten. Recommended use: create a shortcut to the script with the bandwidth in Kbit/s as first the argument. A bandwidth of 0 removes the limit.
 
 Example: To set a bandwidth limit of 4.5MB/s, in the shortcut's properties, edit the Target of the shortcut as: *C:\path\to\bandwidth-limit-script.py 36000*
 
